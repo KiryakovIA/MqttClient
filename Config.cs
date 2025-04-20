@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Nodes;
-using System.Threading.Tasks;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace MqttClient
 {
@@ -13,6 +7,7 @@ namespace MqttClient
 		public static Config Data { get; private set; }
 
 		public MqttConfig Mqtt { get; set; }
+		public PescConfig Pesc { get; set; }
 
 		public static async Task<bool> LoadDataAsync()
 		{
@@ -36,5 +31,11 @@ namespace MqttClient
 			public string Password { get; set; }
 		}
 
+		public class PescConfig
+		{
+			public string Login { get; set; }
+			public string Password { get; set; }
+			public string AccountId { get; set; }
+		}
 	}
 }

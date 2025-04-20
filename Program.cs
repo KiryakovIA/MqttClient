@@ -16,6 +16,14 @@ internal class Program
 			return;
 		}
 
+
+		PescClient pescClient = new PescClient();
+		if (!await pescClient.GetData())
+		{
+			Console.WriteLine("Не удалось выполнить авторизацию");
+			return;
+		}
+
 		// Create a MQTT client factory
 		var factory = new MqttFactory();
 

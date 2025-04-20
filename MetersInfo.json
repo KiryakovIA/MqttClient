@@ -1,0 +1,58 @@
+﻿[
+	{
+		"id": {
+			"provider": 1100,
+			"registration": "000003KZMJ"
+		},
+		"name": "Электроэнергия.День (ПУ №98018917)",
+		"numberOfDigitsLeft": 6,
+		"numberOfDigitsRight": 0,
+		"serial": "98018917",
+		"status": "ACTIVE",
+		"indications": [
+			{
+				"previousReadingDate": "18.04.2025",
+				"meterScaleId": 2,
+				"indicationId": null,
+				"scaleName": "День",
+				"previousReading": 233.0,
+				"registerReading": null,
+				"unit": "кВт*ч"
+			},
+			{
+				"previousReadingDate": "18.04.2025",
+				"meterScaleId": 3,
+				"indicationId": null,
+				"scaleName": "Ночь",
+				"previousReading": 66.0,
+				"registerReading": null,
+				"unit": "кВт*ч"
+			}
+		],
+		"subserviceId": 54179
+	},
+	{
+		"id": {
+			"provider": 1100,
+			"registration": "000003BYUC"
+		},
+		"name": "Электроэнергия.Круглосуточный (ПУ №2171000655324)",
+		"numberOfDigitsLeft": 6,
+		"numberOfDigitsRight": 0,
+		"serial": "2171000655324",
+		"status": "ACTIVE",
+		"indications": [
+			{
+				"previousReadingDate": "18.04.2025",
+				"meterScaleId": 1,
+				"indicationId": null,
+				"scaleName": "Круглосуточный",
+				"previousReading": 13400.0,
+				"registerReading": null,
+				"unit": "кВт*ч"
+			}
+		],
+		"subserviceId": 54179
+	}
+
+]

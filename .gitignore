@@ -53,3 +53,5 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 /.vs/MqttClient
+/Properties/PublishProfiles/registry.hub.docker.com_igor22041985@rambler.ru.pubxml.user
+/MqttClient.csproj.user
